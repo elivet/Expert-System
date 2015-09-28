@@ -1,0 +1,22 @@
+#map error alphabet minuscules
+
+m + (n | o) => s #true
+k <=> !g ^ !a #true
+a + b => d #true
+a ^ !b => m #true
+d => e #true
+(e + c) + a => f #true
+e | j => i #true
+j | g => h #false
+(a | g) + j => l #false
+!p + !q => r #true /!\ affiche false
+#(!v + a) + !h => (s + t) + u #true /!\ marche seulement si u + (s + t)
+#(!v + a) + !h => u + (s + t)
+W <=> g | h #false
+x <=> y + z #true /!\ y et z existent alors pourquoi x n'existe pas ?
+c ^ g => y #true
+m => n | o #true
+
+=abc #comment
+
+?abcdefghijklmnopqrstuvwxyz

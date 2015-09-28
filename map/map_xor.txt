@@ -1,0 +1,13 @@
+#map ^
+#existent = ACZ
+
+A ^ E => C #true
+C => A ^ W
+!A ^ !Z => D
+!A ^ C => X ^ Y
+D ^ E => B #false
+D ^ E => B ^ F
+
+=AZ
+
+?ABCDEFWXYZ #comment

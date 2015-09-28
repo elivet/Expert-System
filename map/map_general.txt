@@ -1,0 +1,23 @@
+#map alphabet, teste un peu tout
+#existent = ABCDEFIKMNORSTUXYZ
+
+M + (N | O) => Z
+K <=> !G ^ !A  #comment
+A + B => D
+A ^ !B => M
+D => E
+(E + C) + A => F
+E | J => I #comment
+J | G => H
+(A | G) + J => L #comment
+!P + !Q => R
+(!V + A) + !H => (S + T) + U
+#lol comment
+W <=> G | H
+X <=> Y + Z
+C ^ G => Y
+M => N | O
+
+=ABC
+
+?ABCDEFGHIJKLMNOPQRSTUVWXYZ

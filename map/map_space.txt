@@ -1,0 +1,22 @@
+#map alphabet space, teste un peu tout
+#existent = ABCDEFIKMNORSTUXYZ
+
+M+(N | O) =>Z
+K <=>         !G ^ !A
+A       + B => D
+A ^ !B => M        #true
+D           =>E #true
+(E + C) + A=> F
+E | J        => I #true
+J| G => H #false
+(A|G) + J      => L
+!P        + !Q => R 
+(!V + A) +        !H => (S +         T) + U #true
+W          <=> G | H           #false
+X<=>Y+Z
+C^G => Y
+M=>N|              O
+
+=ABC #comment
+
+?ABCDEFGHIJKLMNOPQRSTUVWXYZ

@@ -1,0 +1,15 @@
+#map ()
+#existent = CKDEMPXN
+
+(A + E) + C => (X + N) + U #false
+X => C #true
+(X | N) + K <=> C #true
+C => D | (M + P) #true
+(H | I) | F => (A | R) | U #false
+(N ^ X) ^ F => (K ^ C) ^ B #false
+(!R + E) + !V => !A + !J #true
+C => E
+
+=CK
+
+?ABCDEFGHIJKLMNOPQRSTUVWXYZ

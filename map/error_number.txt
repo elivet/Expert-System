@@ -1,0 +1,7 @@
+#map error chiffres /!\ doit afficher une erreur de syntaxe
+
+1 + 2 => 3
+
+=12
+
+?3

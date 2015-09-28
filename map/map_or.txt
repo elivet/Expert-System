@@ -1,0 +1,13 @@
+#map |
+#existent = ACWXYZ
+
+A | E => C
+C => A | W
+!A | !Z => D
+A | C => X | Y #true
+D | E => B
+D | E => B | F #false
+
+=AZ
+
+?ABCDEFWXYZ #comment

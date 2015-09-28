@@ -1,0 +1,8 @@
+#map error contradiction
+
+A + B => C
+C => !A + !B
+
+=AB
+
+?C

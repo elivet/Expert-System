@@ -1,0 +1,16 @@
+# map
+# existent = ABCDE
+
+A + B => C
+C + E => D #comment
+E <=> A + B
+B => D + E
+A => E
+E + F => G #comment
+H + I => J
+
+#comment
+
+=AB #comment
+
+?ABCDEFGHIJ

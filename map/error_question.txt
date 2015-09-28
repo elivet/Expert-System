@@ -1,0 +1,22 @@
+#map valide sauf pour le ? /!\ doit afficher une erreur de syntaxe
+
+M + (N | O) => Z #true
+K <=> !G ^ !A #true
+A + B => D #true
+A ^ !B => M #true
+D => E #true
+(E + C) + A => F #true
+E | J => I #true
+J | G => H #false
+(A | G) + J => L #false
+!P + !Q => R #true /!\ affiche false
+#(!V + A) + !H => (S + T) + U #true /!\ marche seulement si U + (S + T)
+#(!V + A) + !H => U + (S + T)
+W <=> G | H #false
+X <=> Y + Z #true /!\ Y et Z existent alors pourquoi X n'existe pas ?
+C ^ G => Y #true
+M => N | O #true
+
+=ABC #comment
+
+?123

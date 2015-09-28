@@ -1,0 +1,13 @@
+#map xavier niel
+#existent = XAVIERNIEL
+
+A + E => R #true
+!C | !K => L #true
+P => V + I #false
+A <=> I | V #true
+E => I #true
+(X + N) + L => E #true
+
+=XN
+
+?XAVIERNIELPQSTOMCK

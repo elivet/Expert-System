@@ -1,0 +1,13 @@
+#map !
+#existent = KLMOPQSU
+
+!A ^ !K => L
+!L | !B => M
+!M + !A => N #false
+!N => O + (P + Q) 
+!C <=> S #true
+U <=> !D #true
+
+=K #comment
+
+?KLMNOPQRSTUV
